@@ -1,0 +1,11 @@
+{
+  "name": "@react-native-oh-tpl/react-native-file-selector",
+  "version": "0.0.1",
+  "description": "Please describe the basic information.",
+  "main": "Index.ets",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@rnoh/react-native-openharmony": 'file:../libs/react_native_openharmony-5.0.0.490.har'
+  }
+}
