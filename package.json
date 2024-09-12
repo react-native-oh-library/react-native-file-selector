@@ -1,25 +1,30 @@
 {
-    "name": "react-native-file-selector",
-    "version": "1.0.2",
-    "description": "React Native: Native File Selector",
-    "main": "RNFileSelector.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [
-        "react-native"
-    ],
-    "author": "Pranav Raj Singh Chauhan",
-    "license": "Apache License",
-    "homepage": "https://github.com/prscX/react-native-file-selector.git",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/prscX/react-native-file-selector.git"
-    },
-    "dependencies": {
-    },
-    "devDependencies": {
-        "prettier-pack": "0.0.11"
-    },
-    "peerDependencies": {}
+  "name": "@react-native-oh-tpl/react-native-file-selector",
+  "version": "1.0.2-0.0.1",
+  "description": "React Native: Native File Selector",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prscX/react-native-file-selector.git"
+  },
+  "harmony": {
+    "alias": "react-native-file-selector",
+   "codegenConfig": {
+      "specPaths": [
+        "./src"
+      ]
+    }
+  },
+  "keywords": [
+    "react-native",
+    "react-native-file-selector",
+    "react",
+    "native",
+    "harmony"
+  ],
+  "author": "Pranav Raj Singh Chauhan",
+  "license": "Apache License",
+  
+ "nativePackage": true,
+   "main": "index.js"
 }
